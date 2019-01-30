@@ -21,6 +21,8 @@ class blog < ActiveRecord::Migration[5.2]
     create_table :comments do |t|
       t.text :content
     end
+    #lier les tables entre elles
+    #faire les liens entre les models
 
   end
 
